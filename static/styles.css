@@ -1,0 +1,13 @@
+ 
+    body {
+
+background-color: rgb(70, 66, 66);
+text-align: center;
+       color: rgb(red, rgba(119, 0, 255, 0.932), blue);
+text-shadow: 1px 1px 2px rgb(195, 0, 255);
+}
+form {
+text-align: left; / для текста внутри /
+margin-left: 0; / убрать отступ слева /
+margin-right: auto; / прижать влево, если задана ширина /
+}

@@ -1,0 +1,24 @@
+<link rel="stylesheet" href={{ url_for("static", filename="styles.css") }} />
+<form method="POST"> 
+<table border="1">
+    
+    <tr>
+        
+        <td>Item {{Farmer_curensy}}</td>
+        
+    </tr>
+   <tr>
+        <td><input type="text",name="Farmer_backpack"></td>
+        <td><input type="submit"></td>
+        
+    </tr>
+    <tr>
+        
+
+        <td>Caged farmers</td>
+        <td><input type="text"></td>
+    </tr>
+   
+</table>
+<form>
+    <p>Число: {{ Farmer_backpack }}</p>
